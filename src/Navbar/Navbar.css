@@ -1,0 +1,207 @@
+.NavLink {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 26px;
+    padding: 10px;
+    color: black;
+    transition: 0.3s;
+}
+
+.NavLink:hover {
+    box-shadow: -10px 10px grey;
+    background: rgb(241, 241, 241);
+}
+
+.link:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    box-shadow: -5px 5px grey;
+}
+
+.logo {
+    width: 100px;
+}
+
+.block {
+    padding: 50px;
+    font-family: monospace;
+    color: grey;
+}
+
+.log {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.userarg {
+    color: rgb(29, 29, 131);
+}
+
+.red {
+    color: red
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: darkred;
+    font-size: 36px;
+    color: darkorange;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.ava {
+    width: 50px;
+    height: 46px;
+    padding: 0 20px;
+}
+
+.ava2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.none {
+    display: none;
+}
+
+.infoBlock {
+    font-family: monospace;
+    padding:  10px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+    animation: ar 0.5s;
+    transition: 0.3s;
+    background: white;
+}
+
+.infoBlock:hover {
+    box-shadow: 0 0 15px grey;
+    transition: 0.3s;
+}
+
+@keyframes ar {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.infoIMG {
+    width: 80px;
+    height: 80px;
+}
+
+.left {
+    margin-left: 10px;
+}
+
+.infoBlock2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hate {
+    display: none;
+    cursor: pointer;
+    animation: ar 0.7s;
+    transition: 0.3;
+    color: red;
+}   
+
+.add {
+    display: none;
+    cursor: pointer;
+    animation: ar 0.3s;
+    transition: 0.3;
+    color: green;
+    border: none;
+    background: none;
+}
+
+.infoBlock:hover .add{
+    display: block;
+    transition: 0.3;
+
+}
+
+.infoBlock:hover .hate{
+    display: block;
+    transition: 0.3;
+
+}
+
+.delete {
+    display: none;
+    cursor: pointer;
+    animation: ar 0.3s;
+    transition: 0.3;
+    border: none;
+    background: none;
+    color: red;
+}
+
+.infoBlock:hover .delete{
+    display: block;
+    transition: 0.3;
+
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchInp {
+    padding: 5px;
+    border: none;
+    color: grey;
+    margin: 10px 10px 10px 0;
+}
+
+.searchInp:focus {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    background: white;
+    padding: 5px;
+    color: grey;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px grey;
+    transition: 0.3s;
+}
+
+.alert {
+    animation: ar 0.5s;
+}
